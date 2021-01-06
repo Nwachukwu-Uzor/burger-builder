@@ -49,7 +49,7 @@
     position: absolute;
     background-color: white;
     left: 180%;
-    top: -50%;
+    top: 50%;
     border-radius: 40%;
     transform: rotate(60deg);
     box-shadow: inset -1px -3px #c9c9c9;
@@ -110,4 +110,10 @@
     height: 3%;
     background: linear-gradient(#bf3813, #c45e38);
     margin: 2% auto;
+}
+
+@media (min-width: 500px) {
+  .Seeds1:before {
+    top: -50%;
+  }
 }
